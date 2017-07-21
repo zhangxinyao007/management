@@ -9,7 +9,6 @@
 
 </script>
 <style type="text/css" lang="scss" scoped="">
-  *{margin:0; padding: 0}
   .main-box{
     width: 100%;
     height: 100%;

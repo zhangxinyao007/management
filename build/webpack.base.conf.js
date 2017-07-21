@@ -28,10 +28,10 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.scss$/,
-      //   loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
-      // },
+      {
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
+      },
       // {
       //   test: /\.(js|vue)$/,
       //   loader: 'eslint-loader',
